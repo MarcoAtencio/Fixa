@@ -1,0 +1,186 @@
+
+/* The Modal (background) */
+.modal {
+  overflow: scroll;
+  background-color: none;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 6; /* Sit on top */
+  padding-top: 20px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  border: none;
+  margin: auto;
+  padding: 0;
+  max-width: 600px;
+  width: 100%;
+  height: 450px;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.5s;
+  background-color:none;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.color-close {
+opacity: 1;    
+}
+
+.close:hover,
+.close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  color: white;
+  border: none;
+}
+.modal-header:before {
+  background-color: #000;
+}
+
+.fondo4 {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  color: white;
+}
+#myBtn{
+  background-color: #00a68c;
+  outline: none;
+  font-size: 25px;
+  box-shadow: inset 0 0 0 0 #3a7999;
+  cursor: pointer;
+ overflow: hidden;
+ /*margin: 50px 50px;*/
+ left: 50px;
+ top: 100px;
+}
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="url"],
+#contact datetime-local,
+#contact input[type="text"]
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+#contact {
+  /*background: #F9F9F9;*/
+  
+  /*margin: 150px 0;*/
+  /*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
+}
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color:#777;
+}
+#contact h5 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color:#777;
+
+}
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="url"],
+#contact input[type="text"]
+#contact datetime-local {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 0 0 5px;
+  padding: 10px;
+    opacity:1;
+}
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="url"]:hover,
+#contact input[type="text"]:hover,
+#contact datetime-local:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 50%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 30px;
+
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  text-color:white;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.myBtn{
+  color:white;
+  
+}
+.copyright {
+  text-align: left;
+}
+
