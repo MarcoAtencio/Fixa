@@ -1,0 +1,16 @@
+SMAP
+addproducto_jsp.java
+JSP
+*S JSP
+*F
++ 0 addproducto.jsp
+addproducto.jsp
+*L
+1,100:56
+101,12:157
+112,34:169
+145:288,11
+146:299,6
+147:305
+147,65:205
+*E

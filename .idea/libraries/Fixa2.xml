@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Fixa2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/openpdf-1.3.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mssql-jdbc-8.4.1.jre8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/itextpdf-5.5.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-codec-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ojdbc14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sqljdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jstl-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jstl-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
